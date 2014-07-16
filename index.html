@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Address book</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gett'r Done</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Lists</h2>
+          <ul class="current-List">
+          </ul>
+
+          <h2>Make a List</h2>
+          <form id="lists">
+            <div class="form-group">
+              <label for="new-list">Create your list!</label>
+              <input type="text" class="form-control" id="new-list">
+            </div>
+                <button type="submit" class="btn">Add</button>
+          </form>
+
+        </div>
+        <div id="second-form" class="col-md-6">
+          <h2 class="list-name"></h2>
+          <h2>Just Do It</h2>
+          <form id="tasks">
+            <div class="form-group">
+              <label for="new-task">What needs done?</label>
+              <input type="text" class="form-control" id="new-task">
+            </div>
+          <button type="submit" class="btn">Add</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

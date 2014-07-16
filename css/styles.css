@@ -1,0 +1,23 @@
+.current-List{
+  display: none;
+}
+
+.task-to-show{
+  display: none;
+}
+
+.list-name{
+  display: none;
+}
+
+li.test {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+li.test:hover {
+  text-decoration: underline;
+  }
+#second-form {
+  display: none;
+}
